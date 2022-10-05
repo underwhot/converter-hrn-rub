@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Конвертер гривны и рубля</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <section class="calc">
+      <div class="calc__container container">
+        <div class="calc__body">
+          <h1 class="calc__title">Конвертер гривны и&nbsp;рубля</h1>
+          <div class="calc__content content">
+            <div class="content__coeff">
+              <label class="text">Коэффициент
+                <input id="coeff" type="number" class="coeff-num" value="1.25">
+              </label>
+            </div>
+            <div class="content__calc">
+              <label class="text">Гривен
+                <input id="hrn" type="number" class="hrn-num">
+              </label>
+              <div class="content__equals">=</div>
+              <label class="text">Рублей
+                <input id="rub" type="number" class="rub-num">
+              </label>
+            </div>
+            <div class="content__link">
+              <a target="_blank" href="https://t.me/artpetrovskiy">(с) artpetrovskiy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
